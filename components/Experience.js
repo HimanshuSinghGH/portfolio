@@ -10,15 +10,15 @@ function Experience() {
         <ol class="relative border-gray-200 border-l-2 border-dotted mt-12">
           <Expbox
             name="Deloitte USI"
-            jobTitle="Business Technology Analyst"
+            jobTitle="Software Engineer"
             location="Bengaluru, India"
             sDate="Aug 2020"
             eDate="Jul 2021"
             imgUrl="deloitte_logo.png"
             highlights={[
-              "Developer of the month for Dec 2020 and Jan 2021",
-              "Developed critical web application for an American Client working in the healthcare sector. The Apps were based on the MERN Stack.",
-              "Mentored 50+ new hires during theie onboarding phase and conducted session on SQL and Node.js",
+              "Delivered 20+ functionalities in the MERN Stack and increased code coverage by 35% through effective unit testing and Test Driven Development",
+              "Optimised database queries to reduce response time by 54.7%",
+              "Mentored 5 developers, resulting in their successful on-boarding",
             ]}
           />
           <Expbox
@@ -29,8 +29,10 @@ function Experience() {
             eDate="Aug 2021"
             imgUrl="nus_logo.png"
             highlights={[
-              "Analysed privacy claims of DNS-over-HTTPS (DoH) packets for Singtel and deployed a real-time on-path packet filter prototype for Singtel",
-              "The final classifier achieved an F1-score of 97.6% in the open world setting",
+              "Spearheaded the development of multiple Machine Learning Workflows to distinguish DNS-over-HTTPs packets from encrypted web traffic",
+              "The best performing model achieved an accuracy of 97.6% in the open world setting ( spanning across multiple DNS resolvers and CPU Architectures)",
+              "Deployed the model as an on-path network filter prototype to identify and drop DOH packets in real time",
+              "Contributed to a research publication in a top-tier conference on security and privacy",
             ]}
           />
         </ol>

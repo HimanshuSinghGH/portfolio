@@ -11,12 +11,12 @@ function Education() {
         <UnivInfo
           name="Texas A&M University"
           location="College Station, TX"
-          date="Aug 2021 - Dec 2022"
+          date="Aug 2021 - Dec 2023"
           imgUrl="/tamu2.jpg"
           degree="M.S. Computer Science"
           gpa="4.0 / 4.0"
           courses={[
-            "Machine Learning",
+            "ML",
             "NLP",
             "Robotics",
             "OS",
@@ -24,9 +24,11 @@ function Education() {
             "Data Analytics for Cybersecurity",
             "Network Security",
             "Accessible Computing",
+            "Archery",
+            "Trading Strategies",
           ]}
           achievements={[
-            "CSE Dept. Scholarship for Excellent Academic Performance",
+            "CSE Department Scholarship for Academic Excellence (2021-2023)",
             "Mentor for TAMUHack 2023",
           ]}
         />
@@ -48,7 +50,7 @@ function Education() {
             "Cloud Computing",
           ]}
           achievements={[
-            "State Govt. Scholarship for Excellent Academic Performance",
+            "State Govt. Scholarship for Excellent Academic Performance (2016 - 2020)",
             "Organizer & Coordinator for Techical Fest and T&P Cell",
           ]}
         />

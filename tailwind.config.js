@@ -8,9 +8,9 @@ module.exports = {
   theme: {
     extend: {
       height: {
-        192: '48rem',
+        192: "48rem",
       },
     },
   },
   plugins: [],
-}
+};
